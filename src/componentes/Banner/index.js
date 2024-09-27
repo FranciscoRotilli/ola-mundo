@@ -11,12 +11,12 @@ export default function Banner() {
                 </h1>
 
                 <p className={styles.paragrafo}>
-                    Boas vindas ao meu espaço pessoal! Eu sou Antônio Evaldo, instrutor de Front-end da Alura. Aqui compartilho vários conhecimentos, espero que aprenda algo novo :)
+                    Boas vindas ao meu espaço pessoal! Eu sou Francisco Coimbra Rotilli, estudante de Engenharia de Software. Aqui compartilho vários conhecimentos, espero que aprenda algo novo :)
                 </p>
             </div>
             <div className={styles.imagens}>
-                <img className={styles.circuloColorido} src={circuloColorido} aria-hidden={true} />
-                <img className={styles.minhaFoto} src={minhaFoto} aria-hidden={true} alt='Foto do Atônio Evaldo sorrindo' />
+                <img className={styles.circuloColorido} src={circuloColorido} aria-hidden={true} alt='' />
+                <img className={styles.minhaFoto} src={minhaFoto} aria-hidden={true} alt='Foto do Francisco' />
             </div>
         </div>
     )
